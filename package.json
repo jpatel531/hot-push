@@ -1,0 +1,17 @@
+{
+  "name": "hot-push",
+  "main": "./lib/hot-push",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "hot-push:toggle"
+  },
+  "repository": "https://github.com/atom/hot-push",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "pusher": "^1.0.4"
+  }
+}
